@@ -7,4 +7,6 @@ module com.example.bibliotecamvc2 {
 
     opens com.example.bibliotecamvc2 to javafx.fxml;
     exports com.example.bibliotecamvc2;
+    exports com.example.bibliotecamvc2.Model;
+    opens com.example.bibliotecamvc2.Model to javafx.fxml;
 }

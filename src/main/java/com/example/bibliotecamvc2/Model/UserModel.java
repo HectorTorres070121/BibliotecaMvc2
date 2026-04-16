@@ -1,9 +1,9 @@
-package com.example.bibliotecamvc2;
+package com.example.bibliotecamvc2.Model;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class UserModel {
     @FXML
     private Label welcomeText;
 
