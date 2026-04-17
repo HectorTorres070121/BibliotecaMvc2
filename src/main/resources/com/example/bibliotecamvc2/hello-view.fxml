@@ -4,16 +4,16 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" prefHeight="291.0" prefWidth="316.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bibliotecamvc2.Model.UserModel">
+<VBox alignment="CENTER" prefHeight="291.0" prefWidth="316.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bibliotecamvc2.Controller.LoginController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
    <Pane prefHeight="292.0" prefWidth="276.0">
       <children>
-          <Button layoutX="108.0" layoutY="161.0" onAction="#onVerificar" text="Verificar" />
+          <Button layoutX="108.0" layoutY="161.0" onAction="#validarUsuario" text="Verificar" />
          <TextField fx:id="txtUsuario" layoutX="63.0" layoutY="63.0" promptText="user" />
          <Label fx:id="lbl" layoutX="97.0" layoutY="21.0" prefHeight="11.0" prefWidth="103.0" text="Iniciar sesion" />
-         <TextField fx:id="txtContra" layoutX="63.0" layoutY="108.0" promptText="Contraseña" />
+         <TextField fx:id="txtPassword" layoutX="63.0" layoutY="108.0" promptText="Contraseña" />
       </children>
    </Pane>
 </VBox>
